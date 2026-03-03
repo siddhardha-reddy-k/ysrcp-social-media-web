@@ -1,15 +1,12 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
+@theme {
+  --color-ysrcp-blue: #0056b3;
+  --color-ysrcp-green: #008000;
+  --font-roboto-condensed: 'Roboto Condensed', system-ui, sans-serif;
+}
 
 body {
   @apply font-roboto-condensed;
 }
-@theme {
-
-  --color-ysrcp-blue: #0056b3; 
-  --color-ysrcp-green: #008000;
-
-  --font-roboto-condensed: 'Roboto Condensed', system-ui, sans-serif;
-}
-

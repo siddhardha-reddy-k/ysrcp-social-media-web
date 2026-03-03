@@ -4,7 +4,7 @@ import ysrAboutUs from "./ys-raja-sekhar-reddy.jpeg";
 import ysrcp2011 from "./party-logo-2011.jpg";
 import ysrcp2014 from "./jagan-sir-2014.jpg";
 import ysrcp2019 from "./ysrcp-2019.jpg";
-import jaganContact from "./jagan_lion.png";
+import jaganContact from "./jagan-lion.png";
 
 import shyamSripathi from "./volunteers/v1.jpg";
 import santoshBondili from "./volunteers/v2.jpg";
@@ -15,7 +15,7 @@ import phanindraP from "./volunteers/v6.jpg";
 import sivaPrasadReddyP from "./volunteers/v7.jpg";
 import nagendraJ from "./volunteers/v8.jpg";
 
-export const assets = {
+const assets = {
   logo,
   jaganHero,
   ysrAboutUs,
@@ -35,3 +35,4 @@ export const volunteerData = [
   { name: "Siva Prasad Reddy P", img: sivaPrasadReddyP },
   { name: "Nagendra J", img: nagendraJ },
 ];
+export default assets;
