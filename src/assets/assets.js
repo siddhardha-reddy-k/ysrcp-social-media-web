@@ -5,6 +5,7 @@ import ysrcp2011 from "./party-logo-2011.jpg";
 import ysrcp2014 from "./jagan-sir-2014.jpg";
 import ysrcp2019 from "./ysrcp-2019.jpg";
 import jaganContact from "./jagan-lion.png";
+import logoTransparent from "./logo-stand-up-for-ethical-governance-transparent.png";
 
 import shyamSripathi from "./volunteers/v1.jpg";
 import santoshBondili from "./volunteers/v2.jpg";
@@ -23,6 +24,7 @@ const assets = {
   ysrcp2014,
   ysrcp2019,
   jaganContact,
+  logoTransparent,
 };
 
 export const volunteerData = [
